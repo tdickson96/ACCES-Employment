@@ -5,24 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCES Employment - Learning to Code</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>
             ACCES Employment
         </h1>
-        <nav>
-            <ul>
-                <li>Learning to Code</li>
-                <li>Web Development</li>
-                <li>Front-end v. Back-end</li>
-            </ul>
+        <nav class="nav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
         </nav>
     </header>
     <main>
         <h2>Learning to Code</h2>
+            <form>
+                <label for="firstName" class="first-name">First Name</label>
+                <input id="firstName" type="text">
+            
+                <label for="lastName" class="last-name">Last Name</label>
+                <input id="lastName" type="text">
+            
+                <label for="dateBirth" class="date-birth">Date of Birth (dd/mm/yyyy)</label>
+                <input id="dateBirth" type="text">
+
+                <label for="job" class="job">Job</label>
+                <input id="job" type="text">
+
+                <label for="country" class="country">Country</label>
+                <input id="country" type="text">
+
+                <input id="submit" type="submit" value="Submit">
+            </form>
         <h2>Web Development</h2>
+        <p>Choose your favorite day of the week:</p>
+        <form>
+            <input type="radio" id="Monday" name="fav_day" value="Monday">
+            <label for="Monday">Monday</label><br>
+            <input type="radio" id="Tuesday" name="fav_day" value="Tuesday">
+            <label for="Tuesday">Tuesday</label><br>
+            <input type="radio" id="Wednesday" name="fav_day" value="Wednesday">
+            <label for="Wednesday">Wednesday</label>
+            <input type="radio" id="Thursday" name="fav_day" value="Thursday">
+            <label for="Thursday">Thursday</label>
+            <input type="radio" id="Friday" name="fav_day" value="Friday">
+            <label for="Friday">Friday</label>
+            <input type="radio" id="Saturday" name="fav_day" value="Saturday">
+            <label for="Saturday">Saturday</label>
+            <input type="radio" id="Sunday" name="fav_day" value="Sunday">
+            <label for="Sunday">Sunday</label>
+        </form> 
         <h2>Front-end v. Back-end</h2>
+        <body class="body">
+            <div class="bullseye"></div>
+        </body>
     </main>
     <footer>
         <h3></h3>
